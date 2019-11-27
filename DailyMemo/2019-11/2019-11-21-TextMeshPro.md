@@ -12,7 +12,7 @@ Font Asset のマテリアルをインスペクタで表示し、コンテキス
             AssetDatabase.CreateAsset(duplicate, AssetDatabase.GenerateUniqueAssetPath(assetPath + ".mat"));
 ```
 
-という実装なので、 ** Font Asset のアセットパスに「.」 (ドット) が含まれている** と変なところに変な名前で作られてしまうという訳
+という実装なので、 **Font Asset のアセットパスに「.」 (ドット) が含まれている** と変なところに変な名前で作られてしまうという訳
 
 自分は名前空間形式フォルダを多用するスタイルなので、もうこれは諦める。。
 
